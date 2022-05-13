@@ -43,8 +43,18 @@
 }
 
 .App{
-  padding: 0.5rem 3.5rem;
+  padding: 5vh 3.5rem;
   overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button{
+  border-radius: 0px 25px 25px;
+  font-size: 18px;
+  line-height: 45px;
+  padding: 0px 20px;
+  font-weight: 500;
+  cursor: pointer;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -53,21 +63,21 @@
   flex-direction: row;
   gap: 2rem;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 }
 
 .content-left{
   height: 100%;
-  flex: 1;
+  width: 300px;
   display: flex;
   align-items: center;
 }
 
 .content-right{
   height: 100%;
-  flex: 3;
+  flex: 1;
+  padding: 20px;
   overflow-y: scroll;
-  background-color: #242D49;
 }
 
 .content-right::-webkit-scrollbar{

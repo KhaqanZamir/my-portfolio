@@ -1,4 +1,7 @@
 import React from 'react'
+import About from '../components/about/About'
+import Counters from '../components/Counters/Counters'
+import Home from '../components/home/Home'
 import Sidebar from '../components/sidebar/Sidebar'
 
 export default function Content() {
@@ -6,12 +9,14 @@ export default function Content() {
     <div className='container'>
         <div className='content-container'>
             <div className='content-left'>
-                <Sidebar/>
+                <div style={{position: 'fixed'}}>
+                    <Sidebar/>
+                </div>
             </div>
             <div className='content-right'>
-                <div style={{width: '100%'}}>
-                    ddddddddddddddddddddddddddddddddd
-                </div>
+                    <Home/>
+                    <About/>
+                    <Counters/>
             </div>
         </div>
     </div>

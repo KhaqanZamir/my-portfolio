@@ -20,12 +20,12 @@ export default function Sidebar() {
         </span>
         
         <ul className='navbar-list'>
-            <li> <FontAwesomeIcon className='nav-list-icon' icon={faHome} /> <span>Home</span></li>
-            <li> <FontAwesomeIcon className='nav-list-icon' icon={faUser} /> <span>About</span></li>
-            <li> <FontAwesomeIcon className='nav-list-icon' icon={faLightbulb} /> <span>Services</span></li>
-            <li> <FontAwesomeIcon className='nav-list-icon' icon={faGraduationCap} /> <span>Resume</span></li>
-            <li> <FontAwesomeIcon className='nav-list-icon' icon={faBriefcase} /> <span>Portfolio</span></li>
-            <li> <FontAwesomeIcon className='nav-list-icon' icon={faPhone} /> <span>Contact</span></li>
+            <a href='#home'><li> <FontAwesomeIcon className='nav-list-icon' icon={faHome} /> <span>Home</span></li></a>
+            <a href='#about'><li> <FontAwesomeIcon className='nav-list-icon' icon={faUser} /> <span>About</span></li></a>
+            <a href='#services'><li> <FontAwesomeIcon className='nav-list-icon' icon={faLightbulb} /> <span>Services</span></li></a>
+            <a href='#resume'><li> <FontAwesomeIcon className='nav-list-icon' icon={faGraduationCap} /> <span>Resume</span></li></a>
+            <a href='#portfolio'><li> <FontAwesomeIcon className='nav-list-icon' icon={faBriefcase} /> <span>Portfolio</span></li></a>
+            <a href='#contact'><li> <FontAwesomeIcon className='nav-list-icon' icon={faPhone} /> <span>Contact</span></li></a>
         </ul>
 
         <div className='navbar-social-icons'>

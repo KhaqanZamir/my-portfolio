@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 20rem;
     background: var(--blue);
-    height: 80vh;
+    height: 90vh;
     border-radius: 0px 35px 35px 35px;
     position: relative;
     overflow-y: scroll;
@@ -53,12 +53,16 @@
     padding: 0px 30px;
 }
 
-.navbar-list > li{
+.navbar-list > a{
+    text-decoration: none;
+}
+
+.navbar-list > a > li{
     color: white;
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
-    border-radius: 0px 15px 15px 15px;
+    border-radius: 0px 20px 20px 20px;
     background-color: var(--lightBlue);
     padding: 8px 15px;
     margin-top: 10px;
