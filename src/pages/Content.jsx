@@ -3,6 +3,8 @@ import About from '../components/about/About'
 import Counters from '../components/Counters/Counters'
 import Home from '../components/home/Home'
 import Sidebar from '../components/sidebar/Sidebar'
+import Services from '../components/services/Services'
+import Skills from '../components/skills/Skills'
 
 export default function Content() {
   return (
@@ -17,6 +19,9 @@ export default function Content() {
                     <Home/>
                     <About/>
                     <Counters/>
+                    <Services/>
+                    <Skills/>
+                    <About/>
             </div>
         </div>
     </div>

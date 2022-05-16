@@ -1,6 +1,6 @@
 import { faClock, faFaceSmile, faStar, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
+import React from 'react';
 import CountUp, { useCountUp } from 'react-countup';
 import VisibilitySensor from "react-visibility-sensor";
 import './Counters.css';

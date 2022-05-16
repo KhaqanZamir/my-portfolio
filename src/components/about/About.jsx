@@ -9,7 +9,7 @@ export default function About() {
     <div id='about' className='about-container'>
         <div className='about-heading'>
             <h2>
-                About
+                ABOUT
             </h2>
             <span>
                 Know More About Me
