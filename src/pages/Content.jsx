@@ -21,7 +21,6 @@ export default function Content() {
                     <Counters/>
                     <Services/>
                     <Skills/>
-                    <About/>
             </div>
         </div>
     </div>
