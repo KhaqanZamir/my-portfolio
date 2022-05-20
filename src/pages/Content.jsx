@@ -5,6 +5,8 @@ import Home from '../components/home/Home'
 import Sidebar from '../components/sidebar/Sidebar'
 import Services from '../components/services/Services'
 import Skills from '../components/skills/Skills'
+import Testimonial from '../components/testimonial/Testimonial'
+import Contact from '../components/contact/Contact'
 
 export default function Content() {
   return (
@@ -21,6 +23,8 @@ export default function Content() {
                     <Counters/>
                     <Services/>
                     <Skills/>
+                    <Testimonial/>
+                    <Contact/>
             </div>
         </div>
     </div>

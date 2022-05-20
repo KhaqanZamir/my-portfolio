@@ -1,0 +1,77 @@
+.testimonial-container{
+    width: 100%;
+    min-height: 300px;
+    background: white;
+    margin-top: 40px;
+    border-radius: 0px 35px 35px 35px;
+    box-shadow: 0px 0px 15px 0px lightgrey;
+    padding: 30px 0px;
+}
+
+.testimonial-heading{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.testimonial-heading h2{
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin: 0;
+    opacity: 0.15;
+}
+
+.testimonial-heading span{
+    position: absolute;
+    top: 37%;
+    right: 42%;
+    font-size: 25px;
+    color: var(--blue);
+    text-decoration: underline;
+    font-weight: 800;
+    text-underline-offset: 7px;
+    text-decoration-color: var(--blue);
+}
+
+.testimonial-slider-container{
+    padding: 0px 50px;
+}
+
+.review-card{
+    width: 100%;
+    max-width: 250px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 0px 35px 35px 35px;
+    /* border: 1px solid var(--lightBlue); */
+    box-shadow: 0px 0px 14px -5px var(--gray);
+}
+
+.client-details{
+    display: flex;
+    align-items: center;
+}
+
+.client-details img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.client-name{
+    font-size: 15px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.client-desc{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 5px 0px 0px;
+}
+
+.slick-next:before, .slick-prev:before{
+    font-size: 25px;
+    color: var(--blue);
+}
