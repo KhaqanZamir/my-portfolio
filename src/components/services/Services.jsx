@@ -16,17 +16,23 @@ export default function Services() {
         </div>
         <div className='services-all'>
           <div className='service'>
-            <FontAwesomeIcon className='service-icon' icon={faPenRuler} />
+            <div className='service-icon-container'>
+              <FontAwesomeIcon className='service-icon' icon={faPenRuler} />
+            </div>
             <h3>UI/UX Design</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas omnis laudantium commodi ab vel temporibus.</p>
           </div>
           <div className='service'>
-            <FontAwesomeIcon className='service-icon' icon={faLaptop} />
+            <div className='service-icon-container'>
+              <FontAwesomeIcon className='service-icon' icon={faLaptop} />
+            </div>
             <h3>Web Design</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas omnis laudantium commodi ab vel temporibus.</p>
           </div>
           <div className='service'>
-            <FontAwesomeIcon className='service-icon' icon={faGlobe} />
+            <div className='service-icon-container'>
+              <FontAwesomeIcon className='service-icon' icon={faGlobe} />
+            </div>
             <h3>Web Development</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas omnis laudantium commodi ab vel temporibus.</p>
           </div>

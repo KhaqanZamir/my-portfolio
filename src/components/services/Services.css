@@ -56,9 +56,20 @@
     border: 1px solid var(--lightBlue);
 }
 
+.service-icon-container{
+    background-color: var(--lightBlue);
+    border-radius: 50%;
+    padding: 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .service-icon{
     font-size: 30px;
-    color: var(--lightBlue);
+    color: white;
 }
 
 .service h3{

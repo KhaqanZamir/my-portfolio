@@ -7,7 +7,7 @@ import './Testimonial.css';
 export default function ReviewCard() {
   return (
     <div className='review-card'>
-        <FontAwesomeIcon icon={faQuoteLeft} />
+        <FontAwesomeIcon icon={faQuoteLeft} style={{fontSize: '25px'}} />
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, exercitationem vel. Velit quas saepe sequi aliquid tempora voluptate quam? Illum amet laborum maiores debitis commodi.
         </p>
